@@ -33,7 +33,11 @@ processStudent(42);
 
 console.log(parseStudent({ id: "STU-001", name: "Hana" }));
 // Prints a valid Student object
-parseStudent({ id: 42, name: "Test" });
+try {
+  parseStudent({ id: 42, name: "Test" });
+} catch (e) {
+  console.error((e as Error).message);
+}
 // Throws: TypeError: Expected id to be a string, received number
 // module 2 session 2
 
