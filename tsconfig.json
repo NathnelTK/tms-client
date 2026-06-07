@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es2025",
+    "target": "esnext",
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "noUncheckedIndexedAccess": true
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true
   }
 }

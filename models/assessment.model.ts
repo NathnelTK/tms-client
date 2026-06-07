@@ -1,6 +1,5 @@
 export interface Quiz {
-//readonly 
-id: string;
+readonly id: string;
 kind: "quiz";
 title: string;
 correctAnswers: number;
